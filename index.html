@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#262626">
+  <meta name="description" content="Baixe as versões disponíveis de TorajoRP para Android e PC.">
+  <title>TorajoRP — Downloads</title>
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="TorajoRP início">
+      <img src="assets/logo.png" alt="Logo do TorajoRP">
+      <span>Torajo<span class="green">RP</span></span>
+    </a>
+    <span class="top-label">CENTRAL DE DOWNLOADS</span>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img class="hero-logo" src="assets/logo.png" alt="Logo do TorajoRP">
+      <p class="eyebrow">O SEU MUNDO, DO SEU JEITO</p>
+      <h1>Baixe o <span>TorajoRP</span></h1>
+      <p class="intro">Escolha sua plataforma e baixe a build mais recente disponível.</p>
+    </section>
+
+    <section class="downloads" aria-label="Downloads disponíveis">
+      <article class="download-card" id="android-card">
+        <div class="card-heading">
+          <div class="platform-icon" aria-hidden="true">A</div>
+          <div>
+            <p class="platform-kicker">MOBILE</p>
+            <h2>Android</h2>
+          </div>
+        </div>
+        <p class="requirements">APK · Android 11–16</p>
+        <div id="android-list" class="build-list" aria-live="polite">
+          <p class="loading">Carregando builds...</p>
+        </div>
+      </article>
+
+      <article class="download-card" id="pc-card">
+        <div class="card-heading">
+          <div class="platform-icon pc-icon" aria-hidden="true">PC</div>
+          <div>
+            <p class="platform-kicker">DESKTOP</p>
+            <h2>PC</h2>
+          </div>
+        </div>
+        <p class="requirements">ZIP · Windows</p>
+        <div id="pc-list" class="build-list" aria-live="polite">
+          <p class="loading">Carregando builds...</p>
+        </div>
+      </article>
+    </section>
+
+    <p class="footnote">As versões exibidas são detectadas automaticamente pelos nomes dos arquivos nas pastas de cada plataforma.</p>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> TorajoRP</span>
+    <span>Feito para jogar. <b>Feito com cuidado.</b></span>
+  </footer>
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
